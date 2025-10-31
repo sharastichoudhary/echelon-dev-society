@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echelon Dev Society</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Echelon Dev Society</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#domains">Domains</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#join">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Echelon Dev Society</h1>
+            <div class="typing-container">
+                <span id="typed-text"></span>
+            </div>
+            <p>Empowering students to learn, innovate, and collaborate in the world of technology.</p>
+            <button class="btn-primary" onclick="scrollToSection('about')">Know More</button>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p data-aos="fade-up">Founded in 2023, Echelon Dev Society is a vibrant community dedicated to fostering innovation and collaboration among students passionate about technology. Our mission is to empower aspiring developers and tech enthusiasts by providing a platform for learning, creating, and building impactful projects.</p>
+            <p data-aos="fade-up" data-aos-delay="200">What makes us unique is our focus on hands-on experience, mentorship, and a supportive environment where ideas turn into reality.</p>
+        </div>
+    </section>
+
+    <section id="domains" class="domains">
+        <div class="container">
+            <h2>Our Domains</h2>
+            <div class="domain-cards">
+                <div class="card" data-aos="fade-up">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Build responsive and dynamic websites using modern frameworks.</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI & ML</h3>
+                    <p>Explore artificial intelligence and machine learning technologies.</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>App Development</h3>
+                    <p>Create mobile applications for iOS and Android platforms.</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Hackathons & Projects</h3>
+                    <p>Participate in exciting hackathons and collaborative projects.</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Workshops</h3>
+                    <p>Attend workshops to learn new skills and technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Events & Activities</h2>
+            <div class="event-gallery">
+                <div class="event-item" data-aos="zoom-in">
+                    <img src="https://via.placeholder.com/300x200?text=Event+1" alt="Event 1">
+                    <h3>Hackathon 2024</h3>
+                    <p>Our annual hackathon where teams build innovative solutions.</p>
+                </div>
+                <div class="event-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://via.placeholder.com/300x200?text=Event+2" alt="Event 2">
+                    <h3>AI Workshop</h3>
+                    <p>Hands-on workshop on machine learning basics.</p>
+                </div>
+                <div class="event-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://via.placeholder.com/300x200?text=Event+3" alt="Event 3">
+                    <h3>Web Dev Bootcamp</h3>
+                    <p>Intensive training on full-stack web development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-members">
+                <div class="member" data-aos="fade-up">
+                    <img src="https://via.placeholder.com/150x150?text=President" alt="President">
+                    <h3>John Doe</h3>
+                    <p>President</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://via.placeholder.com/150x150?text=Vice+President" alt="Vice President">
+                    <h3>Jane Smith</h3>
+                    <p>Vice President</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="member" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://via.placeholder.com/150x150?text=Tech+Lead" alt="Tech Lead">
+                    <h3>Bob Johnson</h3>
+                    <p>Tech Lead</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="join">
+        <div class="container">
+            <h2>Join Us</h2>
+            <p data-aos="fade-up">Ready to be part of an amazing community? Join Echelon Dev Society today!</p>
+            <form class="join-form" data-aos="fade-up" data-aos-delay="200">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit" class="btn-primary">Join Now</button>
+            </form>
+            <div class="social-join" data-aos="fade-up" data-aos-delay="300">
+                <p>Or connect with us on:</p>
+                <a href="#" class="btn-secondary"><i class="fab fa-discord"></i> Discord</a>
+                <a href="#" class="btn-secondary"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Echelon Dev Society. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.12/lib/typed.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
